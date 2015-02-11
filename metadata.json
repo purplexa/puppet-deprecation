@@ -1,0 +1,12 @@
+{
+  "name": "thrnio-deprecation",
+  "version": "0.1.0",
+  "author": "thrnio",
+  "summary": "Set structured deprecation warnings in your manifests",
+  "license": "Apache 2.0",
+  "source": "https://github.com/thrnio/puppet-deprecation",
+  "project_page": "https://github.com/thrnio/puppet-deprecation",
+  "issues_url": "https://github.com/thrnio/puppet-deprecation/issues",
+  "dependencies": []
+}
+

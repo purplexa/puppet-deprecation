@@ -1,8 +1,14 @@
-# Puppet Deprecations
+# deprecation
+
+#### Table of Contents
+
+1. [Overview](#overview)
+1. [Usage - Configuration options and additional functionality](#usage)
 
 ## Overview
 
-This module lets you add deprecation warnings in a structured way.
+This module lets you add deprecation warnings to your manifests in a
+structured way.
 
 ## Usage
 
@@ -18,3 +24,4 @@ will print the following message:
 ```
 Warning: Deprecation warning: 'My warning message' in my::class::name
 ```
+
