@@ -22,6 +22,6 @@ When the resource is created in a `my::class::name` class file, Puppet
 will print the following message:
 
 ```
-Warning: Deprecation warning: 'My warning message' in my::class::name
+Warning: Scope(Deprecation::Warning[my::class::name]): Deprecation warning: My warning message
 ```
 
