@@ -1,5 +1,8 @@
 define deprecation::warning (
+  $ensure  = present,
   $message = 'This class is deprecated.'
 ){
-  warning("Deprecation warning: ${message}")
+  if $ensure == 'present' {
+    warning("Deprecation warning: ${message}")
+  }
 }
